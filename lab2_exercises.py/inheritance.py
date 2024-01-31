@@ -1,29 +1,7 @@
 #1
-class MyClass:
-    x=5
-
-#2
-class MyClass:
-    x=5
-p1=MyClass()
-
-#3
-class MyClass:
-    x=5
-
-p1=MyClass()
-print()
-
-#4
-class Person:
-    def __init__(self, name, age):
-        self.name=name
-        self.age=age
-
-#5
 # class Student(Person):
 
-#6
+#2
    
 class Person:
   def __init__(self, fname):
@@ -37,4 +15,3 @@ class Student(Person):
 
 x = Student("Mike")
 x.printname()
-
